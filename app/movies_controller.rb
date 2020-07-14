@@ -29,7 +29,7 @@ def can_be_created_in_a_block(args = "Home alone")
   # release_date == 1990
 
   Movie.create do |m|
-    m.title = "This is stupid"
+    m.title = args
   end
 end
 
